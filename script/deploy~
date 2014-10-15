@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-cd ~/hello-jenkins
-git pull
+cd /home/app/hello-jenkins
+git pull origin master
 npm install --production
 forever restartall
